@@ -1,0 +1,30 @@
+{
+  "name": "social-crawler",
+  "version": "1.0.0",
+  "description": "Scraper to scrape tweets and google search results for a query",
+  "main": "server.js",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "google": "^2.1.0",
+    "node-bing-api": "^3.2.1",
+    "nodemon": "^1.11.0",
+    "twitter": "^1.7.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vsc-github/social-crawler.git"
+  },
+  "author": "vishwas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vsc-github/social-crawler/issues"
+  },
+  "homepage": "https://github.com/vsc-github/social-crawler#readme"
+}
